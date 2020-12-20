@@ -11,7 +11,7 @@ public class Main {
 				System.exit(0);
 			}
 		});
-		frame.setSize(800, 600);
+		frame.setSize(500, 500);
 		frame.setVisible(true);
 	}
 

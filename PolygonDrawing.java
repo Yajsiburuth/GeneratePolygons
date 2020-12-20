@@ -20,8 +20,8 @@ public class PolygonDrawing extends Frame{
 	    ga.setRenderingHints(rh);
 		Polygon p = new Polygon();
 	    for (int i = 0; i < numSides; i++)
-	      p.addPoint((int) (100 + 50 * Math.cos(i * 2 * Math.PI / numSides)),
-	          (int) (100 + 50 * Math.sin(i * 2 * Math.PI / numSides)));
+	      p.addPoint((int) (250 + 50 * Math.cos(i * 2 * Math.PI / numSides)),
+	          (int) (250 + 50 * Math.sin(i * 2 * Math.PI / numSides)));
 		ga.setPaint(lineColor);
 		ga.setStroke(new BasicStroke(5));
 		ga.draw(p);
