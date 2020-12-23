@@ -44,8 +44,8 @@ public class PolygonDrawing extends Frame{
 			for (int i = 0; i < numSides; i++) {
 				int newRandX = (int)(Math.random() * (maxX - minX + 1) + minX);
 				int newRandY = (int)(Math.random() * (maxY - minY + 1) + minY);
-				p.addPoint((int) (250 + newRandX * Math.cos(i * 2 * Math.PI / numSides)),
-				          (int) (250 + newRandY * Math.sin(i * 2 * Math.PI / numSides)));
+				p.addPoint((int) (610 + newRandX * Math.cos(i * 2 * Math.PI / numSides)),
+				          (int) (360 + newRandY * Math.sin(i * 2 * Math.PI / numSides)));
 			}     
 			ga.setPaint(lineColor);
 			ga.setStroke(new BasicStroke(10));
