@@ -27,8 +27,8 @@ public class PolygonDrawing extends Frame{
 		Polygon p = new Polygon();
 		if (x == 0) {
 			for (int i = 0; i < numSides; i++) {
-				p.addPoint((int) (250 + 50 * Math.cos(i * 2 * Math.PI / numSides)),
-				          (int) (250 + 50 * Math.sin(i * 2 * Math.PI / numSides)));
+				p.addPoint((int) (610 + 100 * Math.cos(i * 2 * Math.PI / numSides)),
+				          (int) (360 + 100 * Math.sin(i * 2 * Math.PI / numSides)));
 				
 			}   
 			ga.setPaint(lineColor);
